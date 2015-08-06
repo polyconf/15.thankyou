@@ -1,0 +1,608 @@
+@import "bourbon";
+@import "grid-settings";
+@import "neat";
+@import "base";
+
+$dark: #2e4e6b;
+$blue: #20b9f1;  
+$gray: #6c7173;
+$green: #00a653;
+$lightgray: lighten($gray,50%);
+$mediumgray: #a1a5a8;
+$darkgray: #313435;
+
+body {
+  padding: 20px;
+  margin: 0;
+  font-family: "proxima-nova-soft";
+  color: $darkgray;
+}
+
+section {
+  padding: 100px 0;
+  margin-bottom: 10px;
+}
+
+#menu-link {
+  
+  display: block;
+  
+  position: fixed;
+  top: 60px;
+  right: 60px;
+  z-index: 10000;
+  
+  width: 60px;
+  height: 60px;
+  
+  border-radius: 100%;
+  
+  background: $gray;  
+  
+}
+
+#logo {
+  
+  width: 200px;
+  height: 200px;    
+  
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  margin: 0;
+  
+  background: $blue url('logo.svg') no-repeat center center;
+  background-size: 100%;
+  
+  @include border-bottom-radius(5px);
+    
+  z-index: 10000;
+}
+
+.container {
+  
+  @include outer-container(1200px);
+  position: relative;
+  min-height: 100%;
+}
+
+
+#first {
+
+  background: $dark;
+  position: relative;
+  height: 800px;
+  padding-top: 200px;
+    
+  .text {
+    
+    width: 1200px;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    @include transform(translate(-50%,-50%));
+    
+    margin-top: 50px;
+    
+    color: #fff;
+    
+    p {
+      
+      margin: 0;
+      position: relative;    
+      text-transform: uppercase;
+      font-weight: 600;
+      
+      &#big-thank-you {
+        
+        font-size: em(144px);
+        letter-spacing: -5px;
+        line-height: 1em;
+        left: -8 px;
+        
+      }
+
+      &#for-being {
+        
+        font-size: em(60px);
+        letter-spacing: -1px;
+        line-height: 1em;
+        
+        padding-bottom: 120px;
+        
+        &:before {
+          
+          content: "";
+          height: 8px;
+          width: 1000px;
+          
+          position: absolute;
+          top: 120px;
+          left: 440px;
+          
+          background: #fff;
+          border-radius: 20px;
+
+          @include transform(translateX(-100%));
+          
+        }
+        
+      }
+      
+      &#poly-conf-2015 {
+        
+        font-size: em(48px);
+        letter-spacing: -1px;
+        line-height: 1em;
+        
+        span {
+          color: $blue;
+        }
+        
+      }
+
+      
+    }
+    
+    
+  }
+  
+}
+
+#video {
+  
+  padding: 0;
+  
+  a {
+    
+    display: block;
+    background: $green;
+    padding: 100px 0;
+    @include transition(0.5s all);
+
+    &:hover {
+      @include transition(0.5s all);
+      background: lighten($green,3%);
+    }
+    
+    #play-now {
+      margin: 0 0 10px;
+      width: 100px;
+      height: 100px;
+    }
+    
+    span {
+
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 600;
+      display: block; 
+      
+      &#watch-now {
+        
+        font-size: em(102px);
+        letter-spacing: -3px;
+        line-height: 1em;
+        
+      }
+      
+      &#short-video {
+        
+        font-size: em(42px);
+        letter-spacing: -1px;
+        line-height: 1em;
+        
+      }
+      
+    }
+    
+  }
+  
+}
+
+#gallery {
+  
+  padding: 0;
+  
+  .row {
+    
+    @include clearfix();
+    margin: -5px;
+    
+    .photo {
+      
+      width: 33.333333%;
+      padding: 5px;
+      float: left;
+            
+      &.big {
+        width: 66.66666%;
+      }
+
+      &.right {
+        float: right;
+      }            
+            
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+    }
+    
+  }
+  
+  
+}
+
+
+
+#talks {
+  
+  background: $mediumgray;
+  padding: 100px 0;
+  
+  .container {
+    
+    @include row();
+    
+  }
+  
+  aside {
+    
+    @include span-columns(5);
+    
+    h2 {
+    
+      span {
+  
+        color: $darkgray;
+        text-transform: uppercase;
+        font-weight: 600;
+        display: block; 
+        
+        &#browse {
+          
+          font-size: em(102px);
+          letter-spacing: -3px;
+          line-height: 1em;
+          
+        }
+        
+        &#poly-conf-talks {
+          
+          font-size: em(42px);
+          letter-spacing: -1px;
+          line-height: 1em;
+          
+        }
+        
+      }
+      
+    }
+    
+    input {
+      
+      margin-top: 20px;
+      
+      background: #ffffff;
+      width: 80%;
+      border-radius: 20px;
+      height: 40px;
+      line-height: 32px;
+      padding: 8px 16px;
+      padding-left: 48px;
+      font-size: 24px;
+      border: none;
+      box-shadow: inset inset 0px 2px 0px 10px $mediumgray;
+      outline: none !important;
+      -webkit-appearance: none;
+      @include transition(0.5s all);
+      
+      background: url(../img/search.svg) no-repeat 12px center;
+      background-color: lighten($lightgray,0%);
+      background-size: auto 66%;
+      
+      &:focus {
+        box-shadow: inset inset 0px 2px 0px 10px $darkgray;
+        outline: none !important;
+        background-color: #fff;
+        @include transition(0.5s all);
+      }
+      
+    }
+    
+  }
+  
+  #talk-list {
+    
+    @include span-columns(7);
+    
+    ul {
+      
+      li {
+        
+        padding: 20px;
+        padding-left: 140px;
+        
+        background: white;
+        margin-bottom: 4px;
+        border-radius: 2px;
+        
+        position: relative;
+        min-height: 140px;
+                
+        figure {
+          
+          background: $lightgray;
+          width: 100px;
+          height: 100px;
+          
+          border-radius: 2px;
+          
+          margin: 0;
+          
+          position: absolute;
+          top: 20px;
+          left: 20px;
+                    
+        }
+        
+        h3 {
+          font-size: em(24);
+          line-height: 1.1em;
+          font-weight: 500;
+          margin: 0 0 10px;
+          
+        }
+        
+        .info {
+          
+          margin-bottom: 10px;
+          
+          span {
+            
+            color: $gray;
+            display: block;
+            
+            position: relative;
+            
+            &.person {
+              small {
+                display: block;
+                margin-bottom: 10px;
+              }
+            }
+                                                 
+          }        
+          
+        }
+        
+        .links {
+          
+          a {
+            
+            background: $green;
+            display: inline-block;
+            margin-right: 1ex;
+            font-size: em(12px);
+            font-weight: 600;
+            color: #fff;
+            text-transform: uppercase;
+            height: 20px;
+            line-height: 20px;
+            padding: 0 10px;
+            border-radius: 3px;
+            
+          }
+          
+        }
+        
+      }
+      
+    }
+    
+    
+  }
+  
+}
+
+
+#sponsors {
+  
+  background: lighten($mediumgray,100%);
+  padding: 100px 0;
+  
+  h2 {
+  
+    span {
+
+      color: $darkgray;
+      text-transform: uppercase;
+      font-weight: 600;
+      display: block; 
+      
+      &#meet-our-sponsors {
+        
+        font-size: em(102px);
+        letter-spacing: -3px;
+        line-height: 1em;
+        
+      }
+              
+    }
+    
+  }
+  
+  h3 {
+    
+    font-size: em(80px);
+    margin: 30px 0;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    line-height: 1em;
+    
+  }
+  
+  .sponsors {
+    
+    @include row();
+    
+    .gold.sponsor {
+      
+      @include span-columns(4);      
+
+      // entire container, keeps perspective
+      .flip-container {
+        perspective: 1000;
+        
+      }
+        // flip the pane when hovered 
+        .flip-container:hover .flipper, .flip-container.hover .flipper {
+          transform: rotateY(180deg);
+        }
+      
+      .front, .back {
+        width: 100%;
+        height: 80%;
+      }
+      
+      // flip speed goes here
+      .flipper {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        padding-top: 100%;
+        position: relative;
+      }
+      
+      // hide back of pane during swap
+      .front, .back {
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      // front pane, placed above back
+      .front {
+        z-index: 2;
+        // for firefox 31
+        transform: rotateY(0deg);
+        background: #fff;
+        
+        .logo {
+          
+          position: absolute;
+          width: 100%;
+          left: 50%;
+          top: 50%;
+          @include transform(translate(-50%,-60%));
+          line-height: 1.1em;
+          
+          &:after {
+            content: "Show more";
+            background: $mediumgray;
+            color: #fff;
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            @include transform(translate(-50%, 100px));
+            text-transform: uppercase;
+            padding: 0px 10px;
+            line-height: 20px;
+            border-radius: 20px;
+            height: 20px;
+            font-size: em(14px);
+          }
+          
+        }
+
+      }
+      
+      // back, initially hidden pane 
+      .back {
+        transform: rotateY(180deg);
+        background: $lightgray;
+        
+        .description {
+          
+          position: absolute;
+          width: 80%;
+          left: 50%;
+          top: 50%;
+          @include transform(translate(-50%,-50%));
+          line-height: 1.1em;
+          
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}
+
+footer {
+  
+  background: $dark;
+  height: 600px;  
+  
+  h2 {  
+    
+    position: absolute;  
+    top: 50%;
+    @include transform(translateY(-50%));
+    
+      
+    span {
+
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 600;
+      display: block; 
+      
+      &#see-you {
+        
+        font-size: em(102px);
+        letter-spacing: -3px;
+        line-height: 1em;
+        
+      }
+      
+      &#you-can-contact-us {
+        
+        font-size: em(42px);
+        letter-spacing: -1px;
+        line-height: 1em;
+        
+        a {
+          display: inline-block;
+          line-height: 44px;
+          margin-top: 8px;
+          font-size: 0.9em;
+          padding: 0 20px;
+          color: $dark;
+          text-decoration: none;
+          background: #fff;
+          border-radius: 25px;
+          @include transition(0.5s all);
+          
+          &:hover {
+            background: lighten($blue,20%);
+            @include transition(0.5s all);
+          }
+          
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}
