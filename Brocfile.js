@@ -16,7 +16,9 @@ var img = funnel('images', {
 
 var js = babel('javascripts', {});
 
-js = browserify(js, {
+var bower = 'bower_components'
+
+js = browserify(merge([bower, js]), {
   entries: ['./main.js'],
   outputFile: 'assets/main.js'
   // browserify: {
@@ -30,9 +32,9 @@ var css = sass(['stylesheets',
                 'bower_components/bitters/app/assets/stylesheets'
                ], 
                'main.scss', 
-               'assets/styles.css');  
+               'assets/styles.css', {});  
 
-var html = 'source/public'
+var html = 'public'
 
 var result;
 
