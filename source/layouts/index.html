@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+  <meta charset="utf-8">
+
+  {{ partial "meta.html" . }}
+
+  <title>{{ .Site.Title }}</title>
+  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+  <link rel="stylesheet" href="/assets/styles.css">
+
+  {{ partial "head_includes.html" . }}
+</head>
+<body lang="en">
+  {{ partial "header.html" . }}
+
+  <ul>
+    {{ range $.Site.Data.guy }}
+    <li>{{ .Name }} / {{ .Title }}</li>
+    {{ end }}
+  </ul>
+
+</body>
+</html>
