@@ -7,7 +7,6 @@
   "license": "MIT",
   "dependencies": {
     "bourbon": "~4.2.3",
-    "bitters": "~1.0.0",
     "neat": "~1.7.2"
   },
   "ignore": [

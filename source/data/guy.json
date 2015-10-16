@@ -1,0 +1,282 @@
+[
+  {
+    "Type":"Talk",
+    "Name":"Wojciech Ogrodowczyk",
+    "Position":"Software Engineer at 3scale",
+    "Title":"Beyond Ruby: easy ways to go polyglot",
+    "Slot":"Day 1: July 2nd, 2015 at 14:40",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Jessica Kerr",
+    "Position":"Developer at Monsato",
+    "Title":"Contracts as Types",
+    "Slot":"Day 2: July 3rd, 2015 at 16:50",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Yan Cui",
+    "Position":"Functional programmer in gaming",
+    "Title":"Things you almost missed in programming languages",
+    "Slot":"Day 2: July 3rd, 2015 at 16:10",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Alex Petrov",
+    "Position":"Functional Guy at codecentric AG",
+    "Title":"Rocking the Time Series boat with C, Haskell and ClojureScript",
+    "Slot":"Day 2: July 3rd, 2015 at 11:20",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Leah Hanson",
+    "Position":"Software Engineer at Google",
+    "Title":"Inside Websockets",
+    "Slot":"Day 2: July 3rd, 2015 at 10:20",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Daniel Holden",
+    "Position":"Author of Cello programming library",
+    "Title":"Cello - Hacking C for Fun and Learning",
+    "Slot":"Day 2: July 3rd, 2015 at 9:40",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Christine Corbett Moran",
+    "Position":"Postdoctoral Researcher at Caltech",
+    "Title":"Polyglot in High Performance Computing",
+    "Slot":"Day 1: July 2nd, 2015 at 17:40",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Stefan Karpinski",
+    "Position":"Julia co-creator",
+    "Title":"Julia: a fast dynamic language for technical computing",
+    "Slot":"Day 3: July 4th, 2015 at 17:40",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Amir Chaudhry",
+    "Position":"PM at Cambridge Computer Laboratory",
+    "Title":"Unikernels",
+    "Slot":"Day 3: July 4th, 2015 at 14:00",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Nikita Prokopov",
+    "Position":"Independent Contractor",
+    "Title":"Programming Web UI with Database in a Browser",
+    "Slot":"Day 3: July 4th, 2015 at 14:40",
+    "YouTube":""
+  },
+  {
+    "Type":"Workshop",
+    "Name":"Michał Taszycki",
+    "Position":"Señor Software Developer at Gunpowder Labs",
+    "Title":"Why should you learn to program Commodore 64 this year ?",
+    "Slot":"Day 1: July 2nd, 2015 at 9:00",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Alissa Bonas",
+    "Position":"Software Engineer at Red Hat",
+    "Title":"How Ruby and Java meet on the same JVM",
+    "Slot":"Day 2: July 3rd, 2015 at 9:00",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Phil Nash",
+    "Position":"Developer Evangelist at Twilio",
+    "Title":"WebHooks: The API Strikes Back",
+    "Slot":"Day 2: July 3rd, 2015 at 14:10",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Sam Tobin-Hochstadt",
+    "Position":"Professor at Indiana University",
+    "Title":"Racket and Typed Racket: the power of extensibility",
+    "Slot":"Day 2: July 3rd, 2015 at 18:30",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"William Byrd",
+    "Position":"Postdoctoral Researcher, University of Utah",
+    "Title":"The Promise of Relational Programming",
+    "Slot":"Day 1: July 2nd, 2015 at 18:20",
+    "YouTube":""
+  },
+  {
+    "Type":"Workshop",
+    "Name":"William Byrd",
+    "Position":"Postdoctoral Researcher, University of Utah",
+    "Title":"Write a relational Scheme interpreter in miniKanren",
+    "Slot":"Day 1: July 2nd, 2015 at 9:00",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"José Valim",
+    "Position":"Director of R&D at Plataformatec",
+    "Title":"Phoenix: a web framework for the new web",
+    "Slot":"Day 3: July 4th, 2015 at 9:00",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Honza Král",
+    "Position":"Python at Elastic.co",
+    "Title":"Polyglot persistence",
+    "Slot":"Day 1: July 2nd, 2015 at 16:00",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Joe Nash",
+    "Position":"Developer Advocate at Braintree",
+    "Title":"The LISP in the Machine: A Clojure experience report from Braintree",
+    "Slot":"Day 1: July 2nd, 2015 at 14:00",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Pierre-Yves Ritschard",
+    "Position":"CTO at exoscale",
+    "Title":"Distributed systems the easy way with Clojure and Mesos",
+    "Slot":"Day 2: July 3rd, 2015 at 12:00",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Felix Hawkins & Karolina Ferenz",
+    "Position":"Developer and Designer",
+    "Title":"Simply Devign",
+    "Slot":"Day 3: July 4th, 2015 at 9:40",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Erik Michaels-ober",
+    "Position":"Developer Evangelist at SoundCloud",
+    "Title":"An Introduction to Crystal",
+    "Slot":"Day 2: July 3rd, 2015 at 14:50",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Brendon McLean",
+    "Position":"CTO at Intellection",
+    "Title":"Getting Ruby to speak Python with a LISP",
+    "Slot":"Day 3: July 4th, 2015 at 16:00",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Jivago Alves",
+    "Position":"Developer at Stack Builders",
+    "Title":"Building Web Apps in Elm",
+    "Slot":"Day 2: July 3rd, 2015 at 13:30",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Adam Byrtek",
+    "Position":"CTO at Squirrel",
+    "Title":"The Power of Immutability",
+    "Slot":"Day 3: July 4th, 2015 at 16:40",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Paul Chavard",
+    "Position":"Software Engineer at Capitaine Train",
+    "Title":"Functional Ember",
+    "Slot":"Day 3: July 4th, 2015 at 11:20",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Charles Pletcher",
+    "Position":"Engineer at Assembly",
+    "Title":"Polyglot Micro-services with a Dash of Wittgenstein",
+    "Slot":"Day 3: July 4th, 2015 at 12:00",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Robert Virding",
+    "Position":"Co-Inventor of Erlang, Language Expert",
+    "Title":"Erlang in multi-lingual systems",
+    "Slot":"Day 3: July 4th, 2015 at 18:20",
+    "YouTube":""
+  },
+  {
+    "Type":"Workshop",
+    "Name":"Łukasz Olejarczuk",
+    "Position":"IT specialist at Bank Zachodni WBK",
+    "Title":"Mobile development in the smart way with Ionic framework",
+    "Slot":"Day 1: July 2nd, 2015 at 9:00",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Marek Matczak",
+    "Position":"Architect and Developer at Capgemini",
+    "Title":"AngularJS: All you can learn of in 30 minutes",
+    "Slot":"Day 1: July 2nd, 2015 at 16:40",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Przemysław Kamiński",
+    "Position":"Software Developer",
+    "Title":"Data exchange formats",
+    "Slot":"Day 1: July 2nd, 2015 at 15:20",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Bodil Stokke",
+    "Position":"Functional Programming Hipster",
+    "Title":"Post-FRP Frontend Programming",
+    "Slot":"Day 2: July 3rd, 2015 at 17:50",
+    "YouTube":""
+  },
+  {
+    "Type":"Talk",
+    "Name":"Bhuvaneswary Vijayan & Silvia Moura Pina",
+    "Position":"People Lead & Software Engineer at Zalando",
+    "Title":"The Polyglot Platform: How Zalando Manages Language Diversity",
+    "Slot":"Day 3: July 4th, 2015 at 10:20",
+    "YouTube":""
+  },
+  {
+    "Type":"Workshop",
+    "Name":"Matthias Fischmann",
+    "Position":"CEO at zerobuzz.net",
+    "Title":"Introduction to Haskell",
+    "Slot":"Day 1: July 2nd, 2015 at 9:00",
+    "YouTube":""
+  },
+  {
+    "Type":"Workshop",
+    "Name":"Tomasz Szewcow",
+    "Position":"Software Developer at Capgemini ",
+    "Title":"Building modern web apps with AngularJS",
+    "Slot":"Day 1: July 2nd, 2015 at 9:00",
+    "YouTube":""
+  }
+]
