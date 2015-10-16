@@ -22,9 +22,9 @@
     "object-assign": "^4.0.1"
   },
   "scripts": {
-    "watch": "parallelshell 'cd source && stasis -d -p ../public' 'broccoli serve'",
+    "watch": "parallelshell 'mkdir public' 'stasis -d -p ../public -o source' 'broccoli serve'",
     "start": "npm run watch",
-    "build": "parallelshell 'cd source && stasis -p ../public' 'broccoli build dist'"
+    "build": "parallelshell 'mkdir public' 'stasis -p ../public -o source' 'broccoli build dist'"
   },
   "devDependencies": {
     "parallelshell": "^2.0.0"
