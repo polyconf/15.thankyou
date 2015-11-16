@@ -1,7 +1,7 @@
 @import "bourbon";
-@import "grid-settings";
+@import "base/grid-settings";
 @import "neat";
-@import "base";
+@import "base/base";
 
 $dark: #2e4e6b;
 $blue: #20b9f1;  
@@ -14,7 +14,7 @@ $darkgray: #313435;
 body {
   padding: 20px;
   margin: 0;
-  font-family: "proxima-nova-soft";
+  font-family: "proxima-nova-soft" !important;
   color: $darkgray;
 }
 
@@ -148,6 +148,29 @@ section {
     
   }
   
+}
+
+#previous {
+  
+  background: #333;
+  
+  h2 {
+    
+    font-size: em(24px);
+    margin: 0;
+    position: relative;    
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    
+    a {
+      
+      text-decoration: underline;
+      color: white;
+      
+    }
+    
+  }
 }
 
 #video {

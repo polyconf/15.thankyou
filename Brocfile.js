@@ -29,7 +29,6 @@ js = browserify(merge([bower, js]), {
 var css = sass(['stylesheets', 
                 'bower_components/bourbon/app/assets/stylesheets',
                 'bower_components/neat/app/assets/stylesheets',
-                'bower_components/bitters/app/assets/stylesheets'
                ], 
                'main.scss', 
                'assets/styles.css', {});  
