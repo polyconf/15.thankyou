@@ -61,9 +61,10 @@ section {
 
 .container {
   
-  @include outer-container(1200px);
+  @include outer-container(1100px);
   position: relative;
-  min-height: 100%;
+  min-height: 100%;  
+  
 }
 
 
